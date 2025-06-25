@@ -6,12 +6,12 @@ This project demonstrates how to simulate and stress test cash flows using synth
 - Applying a **30% stress shock to outflows**
 - Performing **time series forecasting** using MA and ARMA models
 ## Stress Testing Scenario
--A stress scenario assumes a **30% increase in outflows**, simulating sudden mass withdrawals or liquidity shocks. This tests how resilient the firm is to such financial pressure
+-**A stress scenario assumes a **30% increase in outflows**, simulating sudden mass withdrawals or liquidity shocks. This tests how resilient the firm is to such financial pressure**
 ## MA and ARMA forecasting- While stress testing gives a static scenario view, forecasting helps answer:
 - Will the firm run out of liquidity in the next few days?
 - What trends or shocks are likely in cash flows going forward?
 - **AR (AutoRegressive)** captures momentum: If cash flow was high yesterday, it might be high today.
 - **MA (Moving Average)** captures shocks or noise in the system.
-- **ARMA** blends both to give a **realistic, statistically robust forecast** of future liquidity.
+**- **ARMA** blends both to give a **realistic, statistically robust forecast** of future liquidity.**
   # Output
   -Visualizations showing base vs. stress cumulative cash flow and forecasted values using ARMA 
